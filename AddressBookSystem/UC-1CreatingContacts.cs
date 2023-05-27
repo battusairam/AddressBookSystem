@@ -8,10 +8,8 @@ namespace AddressBookSystem
         {
             Console.WriteLine("Welcome to Address Book Program");
 
-            // TODO: Implement the Address Book functionality
-
-            // Create contacts
-            Contact contact1 = new("John", "Doe", "123 Main St", "City", "State", "12345", "1234567890", "john@example.com");
+ 
+             Contact contact1 = new("John", "Doe", "123 Main St", "City", "State", "12345", "1234567890", "john@example.com");
             Contact contact2 = new("Jane", "Smith", "456 Elm St", "City", "State", "67890", "9876543210", "jane@example.com");
 
             // Display the contacts
@@ -19,8 +17,7 @@ namespace AddressBookSystem
             Console.WriteLine(contact1);
             Console.WriteLine(contact2);
 
-            // TODO: Implement the rest of the Address Book functionality
-        }
+         }
     }
 
     public class Contact
