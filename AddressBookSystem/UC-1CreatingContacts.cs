@@ -4,7 +4,7 @@ namespace AddressBookSystem
 {
     public class UC_1CreatingContacts
     {
-        public static void Main()
+        public static void Main() 
         {
             Console.WriteLine("Welcome to Address Book Program");
 
